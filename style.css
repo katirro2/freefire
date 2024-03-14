@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'aaaaandroid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: rgb(228, 228, 155);
+    margin: 0;
+    position: relative;
+
+}
+
+main {
+    background-color: white;
+    width: 630px;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+}
+
+header {
+    background-image: linear-gradient(to top, green, rgb(5, 163, 5), rgb(7, 219, 7));
+    color: whitesmoke;
+    padding-top: 1px;
+}
+
+.tamanho {
+    max-width: 600px;
+    margin: auto;
+}
+
+.h1 {
+    text-align: center;
+}
+
+p::first-letter {
+    margin-left: 20px;
+}
+
+a, span{
+    text-decoration: none;
+    color: green;
+}
+
+header p {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+a:hover {
+    transition: 0.6s;
+    color: black;
+}
+
+.lista1, .lista2 {
+    color: black;
+    min-width: 300px;
+    text-decoration: underline;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    max-width: 600px;
+    margin-top: -35px;
+}
+
+img {
+    max-width: 600px;
+    margin: auto;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.videos {
+    text-align: center;
+    background-color: green;
+    position: static;
+    margin: -15px;
+    padding: 15px 15px;
+}
+
+.font {
+    font-family: 'aaaaandroid', sans-serif;
+}
+
+h1.font {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, rgb(107, 170, 107),rgba(171, 204, 171, 0.363));
+    color: rgb(1, 65, 1);
+}
+
+footer {
+    text-align: center;
+    background-color: green;
+    margin-bottom: -30px;
+    left: 10px;
+    right: 10px;
+}
+
+.h3 {
+    background-color: rgb(77, 170, 139);
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.listaa {
+    background-color: aquamarine;
+    margin-top: -16px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.p {
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
